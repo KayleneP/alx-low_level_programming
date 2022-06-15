@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
 /**
  * main - Entry point
  * Description: Main does some tings
