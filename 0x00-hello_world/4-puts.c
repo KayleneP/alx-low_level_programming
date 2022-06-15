@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-
-int main () {
+/*this code does soemthing*/
+int main ()
+{
   puts("\"Programming is like building a multilingual puzzle");
   return(0);
 }
