@@ -22,7 +22,7 @@ for (b = 48; b < val; b++)
 {
 for (c = 48; c < 54; c++)
 {
-for (d = 48; s < 58; d++)
+for (d = 48; d < 58; d++)
 {_putchar(a);
  _putchar(b);
  _putchar(58);
