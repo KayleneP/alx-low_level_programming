@@ -23,7 +23,7 @@ putchar(y);
 putchar(32);
 putchar(a);
 putchar(b);
-if (x < 58 && y < 56 && a < 58 && b < 58)
+if (x < 58 && y < 56)
 {putchar(44);
 putchar(32); }}}}}
 putchar(10);
