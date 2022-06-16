@@ -6,6 +6,11 @@
  * Description: Main does some tings
  * Return: Always 0 (Success)
  */
-int main(void)
-{char *_strcat(char *dest, char *src);
-return (0); }
+int main()
+{
+	char src[] = "World Here";
+	char dest[DEST_SIZE] = "Hello";
+	strncat(dest, src, 5);
+	printf(dest);
+	return 0;
+}
