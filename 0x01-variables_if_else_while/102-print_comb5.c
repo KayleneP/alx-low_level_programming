@@ -14,7 +14,7 @@ for (y = 48; y < 57; y++)
 for (a = 48; a < 58; a++)
 {
 if (x == a)
-{val  = y+1; }
+{val  = y + 1; }
 else
 {val  = 48; }
 for (b = val; b < 58; b++)
