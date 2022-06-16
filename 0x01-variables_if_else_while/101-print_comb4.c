@@ -11,7 +11,7 @@ for (x = 48; x < 56; x++)
 {
 for (y = x + 1; y < 57; y++)
 {
-for (z = x + 2; z < 58; z++)
+for (z = y + 1; z < 58; z++)
 {putchar(x);
 putchar(y);
 putchar(z);
