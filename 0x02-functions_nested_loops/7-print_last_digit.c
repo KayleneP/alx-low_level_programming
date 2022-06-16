@@ -11,9 +11,9 @@
  */
 int print_last_digit(int n)
 {int f;
-if(n < 0)
+if (n < 0)
 {n *= -1; }
 n = n % 10;
-f = n+48;
+f = n + 48;
 _putchar(f);
 return (n); }
