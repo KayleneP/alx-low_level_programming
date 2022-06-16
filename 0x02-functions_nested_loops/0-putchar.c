@@ -1,10 +1,11 @@
 #include <stdio.h>
- #include <string.h>
- /**
-  * main - Entry point
-  * Description: Main does some tings
-  * Return: Always 0 (Success)
-  */
- int main(void)
- {printf("_putchar\n");
- return (0); }
+#include <string.h>
+#include <_putchar.h>
+/**
+ * main - Entry point
+ * Description: Main does some tings
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{_putchar(95);
+return (0); }
