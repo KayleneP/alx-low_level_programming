@@ -11,18 +11,18 @@
  */
 void jack_bauer(void)
 {
-int a, b, c, d;
-for (a = 48; x <51; a++)
+int a, b, c, d, val;
+for (a = 48; a < 51; a++)
 {
-if (x == 50)
+if (a == 50)
 {val = 52; }
 else
 {val = 58 ; }
-for (b = 48; y < val; b++)
+for (b = 48; b < val; b++)
 {
-for (c = 48; x <54; c++)
+for (c = 48; c < 54; c++)
 {
-for (d = 48; y < 58; d++)
+for (d = 48; s < 58; d++)
 {_putchar(a);
  _putchar(b);
  _putchar(58);
