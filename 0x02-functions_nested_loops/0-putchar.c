@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <main.h>
 #include <_putchar.h>
 /**
  * main - Entry point
