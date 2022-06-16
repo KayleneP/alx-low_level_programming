@@ -9,7 +9,7 @@ int main(void)
 {int x, y;
 for (x = 48; x < 58; x++)
 {putchar(x);
-for (y = x-1, y <58; y++)
+for (y = x - 1; y < 58; y++)
 {putchar(y);
 if (x < 57 && y < 57)
 {putchar(44);
