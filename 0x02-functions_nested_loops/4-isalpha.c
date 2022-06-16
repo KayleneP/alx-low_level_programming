@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * isalpha - does some tings
+ * _isalpha - does some tings
  * @c: The value to print
  *
  * Return: On success 1.
