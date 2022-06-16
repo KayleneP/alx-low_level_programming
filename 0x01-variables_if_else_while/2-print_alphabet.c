@@ -6,12 +6,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{char ch = 'a';
-printf("Lowercase English Alphabets:\n");
-while (ch <= 'z')
-{printf("%c ", ch);
-ch++;
+{for(int x=97, x<123, x++)
+{putchar(x)
 }
-printf("\n");
+putchar(4);
 return (0);
 }
