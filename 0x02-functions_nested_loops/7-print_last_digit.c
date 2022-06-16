@@ -9,6 +9,6 @@
  * On fail, 0 is returned.
  * On something, -1
  */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {n = n % 10;
 return (n); }
