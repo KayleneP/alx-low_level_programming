@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - Entry point
- * Description: Main does some tings
- * Return: Always 0 (Success)
+ * print_alphabet - Entry point
+ * Description: print_alphabet does some tings
+ * Return: void (Success)
  */
 void print_alphabet(void)
 {int x;
