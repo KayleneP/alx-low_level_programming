@@ -8,6 +8,6 @@
 int main(void)
 {int x;
 for (x = 97; x < 123; x++)
-{putchar(x); }
-putchar(10);
+{_putchar(x); }
+_putchar(10);
 return (0); }
