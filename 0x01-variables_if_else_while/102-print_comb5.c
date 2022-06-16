@@ -7,11 +7,11 @@
  */
 int main(void)
 {int x, y, a, b;
-for (x = 48; x < 57; x++)
+for (x = 48; x < 58; x++)
 {
-for (y = x; y < 58; y++)
+for (y = x; y < 57; y++)
 {
-for (a = 48; a < 57; a++)
+for (a = 48; a < 58; a++)
 {
 for (b = a + 1; b < 58; b++)
 {putchar(x);
