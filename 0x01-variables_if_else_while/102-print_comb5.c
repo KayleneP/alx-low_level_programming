@@ -9,11 +9,11 @@ int main(void)
 {int x, y, a, b;
 for (x = 48; x < 58; x++)
 {
-for (y = x; y < 57; y++)
+for (y = 48; y < 57; y++)
 {
 for (a = 48; a < 58; a++)
 {
-for (b = a + 1; b < 58; b++)
+for (b = y + 1; b < 58; b++)
 {putchar(x);
 putchar(y);
 putchar(32);
