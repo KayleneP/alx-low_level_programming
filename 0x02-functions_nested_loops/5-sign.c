@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <main.h>
 /**
  * print_sign - does some tings
  * @n: The value to print
