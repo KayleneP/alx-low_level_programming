@@ -24,8 +24,8 @@ for (c = 48; c < 54; c++)
 {
 for (d = 48; d < 58; d++)
 {_putchar(a);
- _putchar(b);
- _putchar(58);
- _putchar(c);
- _putchar(d);
- _putchar(10); }}}}
+_putchar(b);
+_putchar(58);
+_putchar(c);
+_putchar(d);
+_putchar(10); }}}}}
