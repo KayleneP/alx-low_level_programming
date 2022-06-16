@@ -11,14 +11,14 @@
 int print_sign(int n)
 {
 if (n > 0)
-{return (1);
-putchar(43);
-putchar(10); }
+{putchar(43);
+putchar(10);
+return (1);}
 else if (n < 0)
-{return (-1);
-putchar(45);
-putchar(10); }
+{putchar(45);
+putchar(10);
+return (-1); }
 else
-{return (0);
-putchar(48);
-putchar(10); }}
+{putchar(48);
+putchar(10);
+return (0); }}
