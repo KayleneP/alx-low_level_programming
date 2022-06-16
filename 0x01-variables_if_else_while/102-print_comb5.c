@@ -16,7 +16,7 @@ for (a = x; a < 58; a++)
 if (x == a)
 {val  = y + 1; }
 else
-{val  = y; }
+{val  = 48; }
 for (b = val; b < 58; b++)
 {putchar(x);
 putchar(y);
