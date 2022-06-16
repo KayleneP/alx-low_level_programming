@@ -9,7 +9,7 @@
  * On fail, 0 is returned.
  * On something, -1
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 int a, b, c, d;
 for (a = 48; x <51; a++)
