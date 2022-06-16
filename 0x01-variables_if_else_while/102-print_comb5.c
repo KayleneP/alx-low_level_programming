@@ -16,14 +16,16 @@ for (a = 48; a < 58; a++)
 if (x == a)
 {val  = y + 1; }
 else
-{val  = 48; }
+{val  = y; }
 for (b = val; b < 58; b++)
 {putchar(x);
 putchar(y);
 putchar(32);
 putchar(a);
 putchar(b);
-if (x < 58 && y < 56)
+if (x == 57 && y == 56)
+{; }
+else
 {putchar(44);
 putchar(32); }}}}}
 putchar(10);
