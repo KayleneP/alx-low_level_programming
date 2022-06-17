@@ -13,9 +13,9 @@ int a, b;
 for (a = 0; a < 10; a++)
 {
 for (b = 0; b < 10; b++)
-{char c=(a*b)+'0';
+{char c = (a * b) + '0';
 _putchar(c);
 _putchar(44);
 _putchar(32);
-_putchar(32);}
-_putchar(10);}}
+_putchar(32); }
+_putchar(10); }}
