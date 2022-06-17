@@ -9,13 +9,24 @@
  */
 void times_table(void)
 {
-int a, b;
+int a, b,c, d;
+char x ;
 for (a = 0; a < 10; a++)
 {
 for (b = 0; b < 10; b++)
-{char c = (a * b) + '0';
-_putchar(c);
-_putchar(44);
+{c = a * b;
+if (b > 0 && c < 10)
+{_putchar(44);
 _putchar(32);
 _putchar(32); }
+else
+{_putchar(44);
+_putchar(32); }
+if (c < 10)
+{_putchar(c + 48); }
+else
+{d = c % 10;
+c = (c - d) / 10;
+_putchar(c + 48);
+_putchar(d + 48); }}
 _putchar(10); }}
