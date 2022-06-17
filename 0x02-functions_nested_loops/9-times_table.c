@@ -18,7 +18,7 @@ if (b > 0 && c < 10)
 {_putchar(44);
 _putchar(32);
 _putchar(32); }
-else
+else if(b > 0 && c > 9)
 {_putchar(44);
 _putchar(32); }
 if (c < 10)
